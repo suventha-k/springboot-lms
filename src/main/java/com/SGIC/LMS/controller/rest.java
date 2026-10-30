@@ -12,4 +12,9 @@ public class rest {
     public String get(){
         return "run";
     }
+
+    @GetMapping("/run")
+    public String kill(){
+        return "run";
+    }
 }
